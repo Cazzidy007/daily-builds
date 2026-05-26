@@ -1,46 +1,38 @@
 # Standup CLI
 
-A minimal command-line tool for logging personal daily standups. I built it because I wanted a frictionless way to track what I'm doing across job search, Good Grief work, and side projects — without opening a notes app or yet another web tool.
+A minimal command-line tool for logging personal daily standups. I built it because I wanted a frictionless way to track what I'm doing across job search, Good Grief work, and side projects — without opening a notes app.
 
 ## Usage
 
 ```bash
-# Log what you finished (default type)
-python standup.py add "Submitted Bain thank-you email"
+# Log entries with optional tags
+python standup.py add "Submitted Bain thank-you" --tag job-search
+python standup.py add "Prepping AgeTech pitch" --type doing --tag good-grief
+python standup.py add "Waiting on CCA email" --type blocked --tag job-search
 
-# Log what you're currently working on
-python standup.py add "Prepping AgeTech pitch deck" --type doing
-
-# Log a blocker
-python standup.py add "Waiting on CCA scheduling email" --type blocked
-
-# See today
+# View
 python standup.py today
-
-# See the last 7 days
 python standup.py week
-```
+python standup.py week --tag job-search
 
-## Output
-
-```
-2026-05-20
-----------------------------------------
-  ✓ Submitted Bain thank-you email
-  → Prepping AgeTech pitch deck
-  ✗ Waiting on CCA scheduling email
+# Markdown digest for sharing or pasting into a doc
+python standup.py digest
 ```
 
 ## Tech
 
 - Python standard library only — no dependencies
-- `argparse` for the CLI surface
-- JSON file at `~/.standup.json` for persistence (survives across runs, syncs nicely if you put it in Dropbox/iCloud)
-- ~60 lines
+- `argparse` with subcommands
+- JSON file at `~/.standup.json` for persistence
+- ~110 lines
+
+## Changelog
+
+- **v0.2** (2026-05-23) — Added tag support, filtering by tag, and a weekly markdown digest
+- **v0.1** (2026-05-20) — Initial version
 
 ## What I'd add next
 
 - `standup search "keyword"` to grep history
-- Tag support (`--tag job-search`, `--tag good-grief`) for filtering
-- Weekly digest export to markdown for actual standup meetings
-- Install as a system command so I can type `standup add "..."` from anywhere
+- Install as a system command so I can type `standup add ...` from anywhere
+- Sync via Git or Dropbox
