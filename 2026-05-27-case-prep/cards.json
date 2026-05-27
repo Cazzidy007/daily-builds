@@ -1,0 +1,62 @@
+[
+  {
+    "id": "profitability-framework",
+    "topic": "frameworks",
+    "question": "Walk me through the profitability framework.",
+    "answer": "Profit = Revenue − Cost. Revenue = Price × Volume. Cost = Fixed + Variable. Decompose each side: for revenue, dig into product mix, pricing, customer segments, channels. For cost, split fixed vs variable, then identify drivers per unit. Compare to historical / competitors / industry benchmark to localize the issue."
+  },
+  {
+    "id": "market-sizing-top-down",
+    "topic": "market-sizing",
+    "question": "Top-down vs. bottom-up market sizing — when do you use each?",
+    "answer": "Top-down: start with a large known number (population, GDP) and apply % filters down. Faster, good when granular data is missing. Bottom-up: build from unit economics (X customers × Y price × Z frequency). More defensible, better when you know your wedge. Best practice: do both and triangulate."
+  },
+  {
+    "id": "us-population-quick",
+    "topic": "math",
+    "question": "US population, rough number for case math?",
+    "answer": "~335M. Use 330M for clean math. Households ~130M. Median household income ~$75K. Working-age population ~210M."
+  },
+  {
+    "id": "porter-five-forces",
+    "topic": "frameworks",
+    "question": "Name Porter's Five Forces and what each captures.",
+    "answer": "1) Threat of new entrants (barriers to entry), 2) Bargaining power of suppliers, 3) Bargaining power of buyers, 4) Threat of substitutes, 5) Industry rivalry / competitive intensity. Use to assess structural attractiveness of an industry, not a specific company."
+  },
+  {
+    "id": "mece",
+    "topic": "frameworks",
+    "question": "What does MECE stand for and why does it matter?",
+    "answer": "Mutually Exclusive, Collectively Exhaustive. Your buckets shouldn't overlap (mutually exclusive) and should cover the whole problem (collectively exhaustive). It's how you avoid double-counting and missing important branches when structuring an issue tree."
+  },
+  {
+    "id": "break-even",
+    "topic": "math",
+    "question": "Company has $2M fixed costs, sells at $50/unit, variable cost is $30/unit. Break-even volume?",
+    "answer": "Contribution margin per unit = $50 − $30 = $20. Break-even = Fixed costs / contribution margin = $2,000,000 / $20 = 100,000 units."
+  },
+  {
+    "id": "case-opening",
+    "topic": "interview-skills",
+    "question": "How do you open a case (first 60 seconds after they finish the prompt)?",
+    "answer": "Three steps: 1) Repeat back the prompt to confirm understanding and surface any ambiguity. 2) Ask 1-2 clarifying questions (objective, time horizon, key constraint). 3) Take 30-60 seconds of silent thinking, then lay out your structure — 3-4 MECE buckets, signposted clearly."
+  },
+  {
+    "id": "growth-strategy-ansoff",
+    "topic": "frameworks",
+    "question": "Ansoff Matrix — what are the four growth strategies?",
+    "answer": "Existing product / existing market = market penetration. Existing product / new market = market development. New product / existing market = product development. New product / new market = diversification (highest risk). Use to structure 'how should we grow?' questions."
+  },
+  {
+    "id": "willingness-to-pay",
+    "topic": "pricing",
+    "question": "Three main approaches to pricing strategy?",
+    "answer": "1) Cost-plus: cost + margin. Simple but ignores customer value. 2) Competition-based: price relative to competitors. Easy to benchmark, but anchors to others. 3) Value-based: price = customer's willingness to pay, derived from the value delivered. Usually the consulting-recommended approach."
+  },
+  {
+    "id": "synergy-types",
+    "topic": "ma",
+    "question": "In M&A, what are revenue synergies vs cost synergies?",
+    "answer": "Cost synergies: combine operations to reduce duplicate costs (consolidated overhead, shared facilities, procurement scale). Easier to quantify and more reliable. Revenue synergies: cross-sell, geographic expansion, new product bundles. Harder to realize — typical deals overestimate by 50%+."
+  }
+]
