@@ -16,6 +16,7 @@ A 30-minute-a-day practice in shipping. One small thing every day, varied across
 
 | Date | Build | Stack | Notes |
 |------|-------|-------|-------|
+| 2026-05-27 | [Case Prep CLI](./2026-05-27-case-prep) | Python | Flashcard tool with weighted random repetition |
 | 2026-05-26 | [Decision Matrix](./2026-05-26-decision-matrix) | HTML/JS | Live-updating weighted decision tool |
 | 2026-05-25 | [Cost-Per-Hire Calc](./2026-05-25-cost-per-hire) | Python | CSV → recruiting metrics |
 | 2026-05-24 | [Regex Demo](./2026-05-24-regex-demo) | Python | Three real-world regex patterns |
