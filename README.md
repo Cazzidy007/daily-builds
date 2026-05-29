@@ -16,6 +16,7 @@ A 30-minute-a-day practice in shipping. One small thing every day, varied across
 
 | Date | Build | Stack | Notes |
 |------|-------|-------|-------|
+| 2026-05-29 | [GH Profile](./2026-05-29-gh-profile) | Python, requests | GitHub API analyzer with paginated repo fetch |
 | 2026-05-28 | [Caregiving Economics](./2026-05-28-caregiving-economics) | Python, pandas, matplotlib | Unpaid care burden — bar + bubble scatter |
 | 2026-05-27 | [Case Prep CLI](./2026-05-27-case-prep) | Python | Flashcard tool with weighted random repetition |
 | 2026-05-26 | [Decision Matrix](./2026-05-26-decision-matrix) | HTML/JS | Live-updating weighted decision tool |
